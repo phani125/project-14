@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: context-menu;
+}
+
+body {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+[alt="brand-logo"] {
+  height: 40px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(1);
+}
+
+.container {
+  margin: 0 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 30px;
+  list-style: none;
+  font-weight: 600;
+}
+
+header nav li:nth-child(1)::after,header nav li:nth-child(5)::after {
+  display: inline-block;
+  content: "▼";
+  margin: 8px;
+  font-size: 0.7em;
+}
+
+.intro [alt="model"] {
+  height: 500px;
+}
+
+.intro .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+
+.intro h1 {
+  color: #c91b28;
+}
+
+.intro .role {
+  font-size: 4em;
+  margin: 10px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.intro p {
+  line-height: 1.5em;
+}
+
+.btn {
+  background-color: #c91b28;
+  padding: 0.8em 1.5em;
+  width: fit-content;
+  margin: 40px 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.half-background {
+  background: linear-gradient(to right,#181818,#181818 50%,transparent 50%, transparent);
+}
+
+.card-group {
+  padding: 80px 0;
+  gap: 2em;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  padding: 2em;
+  background-color: #1e1e1e;
+}
+
+.card h2 {
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+
+.card p {
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+a {
+  display: block;
+  margin-top: 1.3rem;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.3em;
+  color: #c91b28;
+}
+
+a::after {
+  content: "➜";
+  margin-left: 10px;
+}
+
+.active {
+  background-color: #c91b28;
+  color: #ffffff;
+}
+
+.active a {
+  color: #ffffff;
+}
+
+/* expirience-wrapper */
+
+.expirience-grid {
+  gap: 1.5em;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.left-exp {
+  display: flex;
+  align-items: center;
+}
+
+.left-exp p {
+  display: block;
+  text-align: center;
+}
+
+.red-text {
+  color: #c91b28;
+}
+
+.left-text {
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.left-sm-text {
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.right-exp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.detail-card {
+  display: flex;
+  background-color: #1e1e1e;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-card p {
+  padding: 1.5em 4em;
+  text-align: center;
+}
+
+.right-text {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.right-sm-text {
+  font-size: 1.2em;
+}
+
+
+
+.projects {
+  padding: 60px 100px;
+}
+
+.projects .btn {
+  font-size: 1em;
+  margin-left: auto;
+}
+
+.project-title {
+  align-items: center;
+}
+
+.project-title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.project-title p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: 5px;
+}
+
+/* projects-wrapper */
+
+.project-cards {
+  padding: 1em 0;
+  display: grid;     
+  grid-template-columns: repeat(2, 2fr);
+  gap: 2em;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.project-card img {
+  display: block; 
+  background-color: #1e1e1e;
+  padding: 4rem 1.5em;
+  width: 32rem;
+  height: 26rem;
+}
+
+.project-card{
+  margin-top: 2rem;
+}
+
+.project-card h2 {
+  margin-top: 20px;
+}
+
+.details {
+  margin-top: 50px;
+  background-color: #1e1e1e;
+  padding: 5em;
+  align-items: center;
+}
+
+.details h2 {
+  font-size: 3em;
+  width: 600px;
+}
+
+.details p {
+  width: 600px;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+.details .btn {
+  margin-left: 100px;
+}
+
+main nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  position: relative;
+  padding: 20px 60;
+  background-color: #1e1e1e;
+}
+
+footer [alt="brand-logo"] {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+footer .social-logo {
+  display: flex;
+  gap: 1.5em;
+}

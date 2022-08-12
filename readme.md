@@ -2,7 +2,7 @@
 
 Made by **Phani sai**
 
-## Screenshots:
+## Preview:
 
 ![Desktop view](./desktop.png)
 

@@ -268,9 +268,11 @@ a::after {
 }
 
 .details .btn {
-  margin-left: 24vw;
+  margin-right: 5%;
     width: 13%;
     font-size: 1.1vw;
+    height: 3.6rem;
+
 }
 
 main nav {

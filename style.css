@@ -320,9 +320,9 @@ footer .social-logo {
    display: none;
   }
 
-  .project-card{
+  /*.project-card{
    max-width: 30%;
-  }
+  }*/
 
   .project-card h2,.project-card a{
     margin-left: 2%;

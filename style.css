@@ -325,7 +325,7 @@ footer .social-logo {
   }
 
   .project-card h2,.project-card a{
-    margin-left: 100%;
+    margin-left: 2%;
     white-space: nowrap;
   }
 
@@ -339,6 +339,10 @@ footer .social-logo {
 
   .project-cards {
      padding: 0px;
+  }
+  
+  .project-card img {
+     width: 100%;
   }
 
   .projects {
@@ -377,13 +381,17 @@ footer .social-logo {
   .left-exp{
     margin-left: 13%;
   }
+  
+  details-card{
+  width: 85%;
+  }
 
   .projects .btn {
     font-size: 2vw;
     margin-left: 0;
     width: 11rem !important;
     
-}
+  }
   .footer{
     justify-content: space-around;
   }
@@ -392,6 +400,17 @@ footer .social-logo {
     padding: 0 ;
   }
 
+}
+
+@media screen and (max-width:400px) and (max-width:750px){
+
+   .details-card{
+     width: 63%;
+   }
+  
+   .intro p {
+    width: 74%;
+   }
 }
 
 

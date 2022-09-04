@@ -1,4 +1,4 @@
-# This is Portfolio site for designer
+# This is a Portfolio site for designer
 
 Made by **Phani sai**
 
